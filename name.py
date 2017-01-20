@@ -12,3 +12,11 @@
 
 # message = "Hello, " + full_name.title() + "!"
 # print(message)
+
+# print("\tPython")
+# print("Languages:\n\tPython\n\tC\n\tJavaScript")
+
+favourite_language = ' python '
+print('*' + favourite_language + '*')
+favourite_language = favourite_language.strip()
+print('*' + favourite_language + '*')
