@@ -16,3 +16,7 @@ print(digits)
 print("min: " + str(min(digits)))
 print("max: " + str(max(digits)))
 print("sum: " + str(sum(digits)))
+
+#list comprehensions
+squares_again = [value**2 for value in range(1,11)]
+print(squares_again)
